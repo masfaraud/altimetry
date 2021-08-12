@@ -1,13 +1,14 @@
-altitude [![Code Health](https://landscape.io/github/tomderuijter/altitude/master/landscape.svg?style=flat)](https://landscape.io/github/tomderuijter/altitude/master)
-========
-Fast and lightweight querying of SRTM3 elevation data within Python.
+# altimetry
 
+
+Fast and lightweight querying of SRTM3 elevation data within Python.
+A fork from https://github.com/tomderuijter/altitude
 ---
 
 ## Getting started
-Working with **altitude** is simple.
+Working with **altimetry** is simple.
 ```python
-from altitude import ElevationService
+from altimetry import ElevationService
 e = ElevationService('.cache/')
 elevation = e.get_elevation(50.8, 7.5)
 ```

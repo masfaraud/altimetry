@@ -23,7 +23,7 @@ class SRTM3DataLoader(object):
 
     def __init__(self, cache_dir):
         # TODO TdR 10/08/16: change url to post-processed data source.
-        self.url = 'http://dds.cr.usgs.gov/srtm/version2_1/SRTM3/'
+        self.url = 'https://dds.cr.usgs.gov/srtm/version2_1/SRTM3/'
         self.file_listing = None
 
         cache_engine = joblib.Memory(cachedir=cache_dir, verbose=0)
